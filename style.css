@@ -1,0 +1,278 @@
+body {
+    background-color: #ddeeff;
+    background: url(./img/bg_line.gif) center;
+    overflow-y: scroll;
+}
+
+/* div */
+
+div {
+    margin: 0px auto auto auto;
+	font-size: 12px;
+}
+
+div.main {
+    width: 800px;
+}
+
+div.common_header {
+    margin: 0px auto 0px 0px;
+    border-left: solid 20px #666666;
+    border-bottom: solid 1px #666666;
+    width: 750px;
+    font: normal 20px 'sans-serif';
+    padding: 5px;
+}
+
+div.top_menu {
+    margin: 0px 10px 0px auto;
+    font-size: 10px;
+    width: 250px;
+    padding: 1px;
+}
+
+div.search_form {
+    margin: 0px auto 0px auto;
+    width: 280px;
+    padding: 10px;
+}
+
+div.search_result {
+    width: 780px;
+}
+
+div.mode_title {
+    font: bold 14px sans-serif;
+    width: 780px;
+}
+
+div.edit_form {
+    padding: 15px;
+    width: 700px;
+}
+
+div.login_form {
+    padding: 15px;
+    width: 220px;
+}
+
+div.artist_add_form {
+    padding: 15px;
+    width: 500px;
+}
+
+div.artist_edit_form {
+    padding: 15px;
+    width: 500px;
+}
+
+div.login_btn {
+    padding: 5px;
+    width: 60px;
+}
+
+div.atadd_btn {
+    padding: 5px;
+    width: 60px;
+}
+
+div.atedit_btn {
+    padding: 5px;
+    width: 60px;
+}
+
+div.artist_form {
+    padding: 15px;
+    width: 500px;
+}
+
+div.error_msg {
+    color: #ff0000;
+}
+
+div.footer {
+    margin-top: 20px;
+    font-size: 10px;
+    margin: 20px auto 0px 0px;
+    border-top: solid 1px #666666;
+    width: 780px;
+    text-align: center;
+}
+
+textarea {
+	font-size: 12px;
+}
+
+/* table */
+
+table.result_table {
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.result_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px;
+    border: 1px #aaaaaa solid;
+}
+
+table.result_table tr.result_even {
+    background-color: #ddf6f6;
+}
+
+table.result_table tr.result_odd {
+    background-color: #f6f6f6;
+}
+
+table.result_table td {
+    padding: 3px;
+    border: 1px #aaaaaa solid;
+}
+
+
+table.edit_table {
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.edit_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 20px 3px 20px;
+    border: 1px #aaaaaa solid;
+}
+
+table.edit_table td {
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px #aaaaaa solid;
+}
+
+
+table.view_table {
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.view_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    border: 1px #aaaaaa solid;
+}
+
+table.view_table td {
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px #aaaaaa solid;
+    padding: 5px 5px 5px 5px;
+    width: 540px;
+}
+
+
+table.login_table {
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.login_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 20px 3px 20px;
+    border: 1px #aaaaaa solid;
+}
+
+table.login_table td {
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px #aaaaaa solid;
+}
+
+
+table.atadd_table {
+    margin: 0px auto 0px auto;
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.atadd_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 20px 3px 20px;
+    border: 1px #aaaaaa solid;
+}
+
+table.atadd_table td {
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px #aaaaaa solid;
+}
+
+
+table.atedit_table {
+    margin: 0px auto 0px auto;
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+}
+
+table.atedit_table th {
+    background-color: #666666;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3px 20px 3px 20px;
+    border: 1px #aaaaaa solid;
+}
+
+table.atedit_table td {
+    padding: 3px;
+    background-color: #f0f0f0;
+    border: 1px #aaaaaa solid;
+}
+
+
+td.art_count {
+    text-align: right;
+}
+
+/* span */
+
+span.errmes {
+    font-color: red;
+}
+
+/* form */
+
+input.search_txtbox {
+    width: 125px;
+}
+
+input.login_txtbox {
+    width: 150px;
+}
+
+input.atname_txtbox {
+    width: 170px;
+}
+
+input.title_txtbox {
+    width: 250px;
+}
+
+input.ctlgno_txtbox {
+    width: 120px;
+}
+
+input.date_txtbox {
+    width: 120px;
+}
+
+textarea.remark_txtarea {
+    width: 500px;
+    height: 80px;
+}
