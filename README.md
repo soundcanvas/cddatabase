@@ -1,4 +1,3 @@
 # cddatabase
 
-[demosite url]
-https://www.soundcanvas.jp/cd/
+[demosite url] https://minea.secret.jp/cd/
